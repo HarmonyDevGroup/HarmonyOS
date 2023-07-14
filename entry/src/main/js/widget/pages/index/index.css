@@ -1,0 +1,52 @@
+.image_with_info_layout {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+}
+
+.title_container {/* show in 4X4 */
+    display-index: 2;
+    flex-weight: 18;
+    min-height: 148px;
+    background-image: url("/common/template.png");
+    width: 100%;
+}
+
+.temperature {
+    font-size: 35px;
+    color: #e5ffffff;
+    margin-left: 4%;
+    margin-top: 30px;
+}
+
+.image_container {
+    height: 75px;
+    width: 75px;
+    position: absolute;
+    right: 4%;
+    top: 10px;
+}
+
+.text_container {
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 12px 12px 12px 12px;
+}
+
+.primary_info {
+    font-size: 17px;
+    color: #e5ffffff;
+}
+
+.secondary_info {
+    font-size: 13px;
+    color: #99ffffff;
+}
+
+.items_container {/* show in 2X2,2X4,4X4 */
+    display-index: 1;
+    flex-weight: 20;
+    min-height: 170px;
+}
+

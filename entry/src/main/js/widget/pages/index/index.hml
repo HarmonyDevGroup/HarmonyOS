@@ -1,0 +1,19 @@
+<div class="image_with_info_layout">
+    <stack class="title_container">
+        <text class="temperature" onclick="routerToApp">{{temperature}}</text>
+        <div class="image_container">
+            <image src="/common/template.png" onclick="changeCityEvent"></image>
+        </div>
+        <div class="text_container">
+            <div style="justify-content: space-between;margin-bottom: 5px;">
+                <text class="primary_info" style="display-index: 2;width: 130px;">{{city}}</text>
+                <text class="primary_info" style="display-index: 1;" onclick="routerToApp">{{time}}</text>
+            </div>
+            <div style="justify-content: space-between;">
+                <text class="secondary_info" style="display-index: 2;width: 130px;">{{date}}</text>
+                <text class="secondary_info" style="display-index: 1;">Wed</text>
+            </div>
+        </div>
+    </stack>
+    <div class="items_container"></div>
+</div>

@@ -1,0 +1,213 @@
+.image_with_info_layout {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom left,#4DA2CB,#67B26F);
+/*    background: linear-gradient(to bottom left,#0DCDA4,#C2FCD4);*/
+    background-size: cover;
+    background-position: center;
+}
+
+.left_arrows {
+    position: absolute;
+    top: 25px;
+    left: 10%;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    transform: translateX(-50%);
+    opacity: 0.5;
+}
+
+.right_arrows {
+    position: absolute;
+    top: 25px;
+    right: 10%;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    transform: translateX(50%);
+    opacity: 0.5;
+}
+
+.like {
+    position: absolute;
+    bottom: 15px;
+    right: 25%;
+    width: 25px;
+    height: 25px;
+    align-items: center;
+    transform: translateX(-50%);
+    opacity: 0.5;
+}
+
+.heart {
+    position: absolute;
+    bottom: 14px;
+    right: 15%;
+    width: 25px;
+    height: 25px;
+    align-items: center;
+    transform: translateX(-50%);
+    opacity: 0.5;
+}
+
+.collect {
+    position: absolute;
+    bottom: 15px;
+    right: 5%;
+    width: 25px;
+    height: 25px;
+    align-items: center;
+    transform: translateX(-50%);
+    opacity: 0.5;
+}
+
+
+.gradient2 {
+    width: 100%;
+    height: 120px;
+/* 45度夹角，从红色渐变到绿色 */
+    background: linear-gradient(45deg, rgb(255,0,0), rgb(255, 255, 0), rgb(0, 255, 0), rgb(0, 255, 255), rgb(0, 0, 255), rgb(255, 0, 255), rgb(255, 0, 0));
+}
+
+.blank {
+    padding-left: 4px;
+}
+
+
+.title {
+    position: absolute;
+    top: 18%;
+    left: 73px;
+    color: #e5ffffff;
+    font-size: 20px;
+    transform: translateX(-50%);
+    font-family: sans-serif;
+}
+
+.formula {
+    position: absolute;
+    top: 32%; /* 将元素的顶部边缘置于父元素的中央位置 */
+    left: 50%; /* 调整元素距离左侧的距离 */
+    transform: translate(-50%, -50%); /* 在水平和垂直方向上都进行偏移，使元素居中 */
+    color: #e5ffffff;
+    font-size: 30px;
+}
+
+.main {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #e5ffffff;
+    font-size: 16px;
+    padding: 0 30px 0 30px;
+}
+
+
+.highlight {
+    position: relative;
+    font-size: 16px;
+    text-decoration: underline;
+    color: #ff92cb7b;
+}
+
+
+.mini_container {/* show in 1X2 */
+    display-index: 2;
+    width: 100%;
+    height: 100%;
+    align-items: flex-end;
+    background-image: url("/common/template.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mini_title {
+    font-size: 16px;
+    margin-start: 12px;
+    margin-bottom: 12px;
+    color: #e5ffffff;
+}
+
+.normal_container {
+    display-index: 1;
+    flex-direction: column;
+}
+
+.title_container {/* show in 4X4 */
+    display-index: 1;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 100%;
+    flex-weight: 199;
+    min-height: 150px;
+    background-image: url("/common/template.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title_sub_container {
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-start: 12px;
+    margin-bottom: 12px;
+}
+
+.title {
+    font-size: 20px;
+    color: #e5ffffff;
+    margin-bottom: 2px;
+}
+
+.content {
+    font-size: 16px;
+    color: #99ffffff;
+}
+
+.items_container {/* show in 2X2,2X4,4X4 */
+    display-index: 2;
+    align-items: flex-start;
+    flex-weight: 133;
+    min-height: 100px;
+    margin-top: 17px;
+}
+
+.item_container {
+    margin-bottom: 12px;
+    margin-start: 12px;
+    margin-end: 16px;
+    flex-weight: 1;
+    min-width: 126px;
+    flex-direction: column;
+}
+
+.item_image {
+    height: 64%;
+    border-radius: 10px;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.item_space {
+    height: 9%;
+
+}
+
+.item_title {
+    font-size: 16px;
+    color: #e5000000;
+}
+
+.item_small_space {
+    height: 2%;
+}
+
+.item_content {
+    font-size: 12px;
+    color: #99000000;
+    text-overflow: ellipsis;
+    max-lines: 1;
+}

@@ -1,0 +1,44 @@
+<div class="image_with_info_layout">
+    <div class="left_arrows">
+        <image src="/common/left_arrow.png"></image>
+    </div>
+    <div class="right_arrows">
+        <image src="/common/right_arrow.png"></image>
+    </div>
+    <image src="/common/computer.png"></image>
+    <text class="title">DES算法</text>
+<!--    <text class="formula">e=mc2</text>-->
+    <text class="main">
+        <span>{{space}}</span>
+        <span>DES，即数据加密标准，是一种使用</span>
+            <span class="highlight">密钥</span>
+        <span>加密的</span>
+            <span class="highlight">块算法</span>
+            <span>。DES设计中使用了</span>
+            <span class="highlight">分组密码</span>
+            <span>设计的两个原则：</span>
+        <span class="highlight">混淆</span>
+        <span>和</span>
+        <span class="highlight">扩散</span>
+        <span>，其目的是抗击敌手</span>
+            <span class="highlight">对密码系统的统计分析</span>
+            <span>。</span>
+            <span>{{end_space}}</span>
+            <span>混淆是使</span>
+            <span class="highlight">密文的统计特性</span>
+            <span>与密钥的取值之间的关系尽可能复杂化，扩散的作用就是将每一位明文的影响尽可能迅速地作用到较多的输出密文位中，以便在大量的密文中消除</span>
+            <span class="highlight">明文的统计结构</span>
+            <span>，以防对密钥进行</span>
+            <span class="highlight">逐段破译</span>
+        <span>。</span>
+    </text>
+    <div class="like">
+        <image src="/common/like.png"></image>
+    </div>
+    <div class="heart">
+        <image src="/common/heart.png"></image>
+    </div>
+    <div class="collect">
+        <image src="/common/collect.png"></image>
+    </div>
+</div>

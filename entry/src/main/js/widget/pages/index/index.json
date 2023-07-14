@@ -1,0 +1,27 @@
+{
+    "data": {
+        "mini": false,
+        "imagePaddingTop": "12px",
+        "title": "Title",
+        "content": "Introduction",
+        "miniTitle": "Title",
+        "itemTitle": "Title",
+        "itemContent": "Introduction",
+        "date": "Sunday, June 06",
+        "time": "10:50",
+        "city": "LiuZhou",
+        "temperature": "18°"
+    },
+    "actions": {
+        "routerToApp": {
+            "action": "router",
+            "abilityName": "com.zhj.javacard.MainAbility"
+        },
+        "changeCityEvent": {
+            "action": "message",
+            "params": {
+                "message": "change city"
+            }
+        }
+    }
+}
